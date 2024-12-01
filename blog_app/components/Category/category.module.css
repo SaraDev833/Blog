@@ -1,0 +1,108 @@
+.container {
+    padding: 30px 20px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+    width: 20%;
+}
+
+.style {
+    display: flex;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background-color: lavender;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.food {
+    display: flex;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: black;
+    background-color: beige;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fashion {
+    display: flex;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: black;
+    background-color: lightcoral;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coding {
+    display: flex;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: black;
+    background-color: lightcyan;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.culture {
+    display: flex;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: black;
+    background-color: lightyellow;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+@media  screen and (max-width: 1024px) {
+    .categories{
+        justify-content: center;
+        gap:10px;
+    }
+    .category{
+        width: 30%;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .categories{
+        justify-content: center;
+        gap:10px;
+    }
+    .category{
+        width: 45%;
+    }
+}
+@media  screen and (max-width: 640px) {
+    .categories{
+        justify-content: center;
+        gap:10px;
+    }
+    .category{
+        width: 100%;
+    }
+}

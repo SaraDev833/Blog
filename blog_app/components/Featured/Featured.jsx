@@ -12,7 +12,7 @@ const Featured = () => {
           <Image src='/p1.jpeg' width={300} height={200} alt='post' className={styles.image}/>
          </div>
          <div className={styles.textContainer}>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores vitae harum rerum accusamus temporibus voluptates fugit? Officiis porro ducimus eveniet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta culpa tenetur unde veniam consequatur <br/> eum suscipit pariatur autem magni illo ab nostrum architecto quae modi quod, maxime cupiditate, debitis doloribus minus tempora ipsum ipsa officia.</p>
           <button className={styles.button}>
              Read More
           </button>
