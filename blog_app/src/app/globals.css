@@ -20,19 +20,21 @@ a {
  --bg: #0f172a;
   --textColor: #ddd;
   --softBackground: #1f2937;
-  --softTextColor: a6a6a6;
-
+  --softTextColor: #a6a6a6;
+  --catColor: white;
  }
  .light{
   --bg: #ffffff;
   --textColor:black;
   --softBackground: #f0f0f0;
   --softTextColor: #626262;
+  --catColor: #a52a2a;
  }
 .container{
   min-height: 100vh;
   background-color: var(--bg);
   color:var(--textColor);
+  
 }
 .wrapper{
   max-width: 1536px;

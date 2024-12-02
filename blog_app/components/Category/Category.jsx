@@ -20,11 +20,11 @@ const Category = () => {
                     <Image src='/coding.png' width={32} height={32} style={{ borderRadius: '100%' }}  alt='image'/>
                     <span>Style</span>
                 </Link>
+         
                 <Link href={`/blog`} className={`${styles.category} ${styles.fashion}`}>
                     <Image src='/fashion.png' width={32} height={32} style={{ borderRadius: '100%' }}  alt='image'/>
                     <span>Style</span>
                 </Link>
-         
 
 
             </div>
