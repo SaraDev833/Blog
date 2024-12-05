@@ -1,0 +1,46 @@
+.title{
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.title::placeholder{
+ 
+    font-size: 28px;
+    color: #d1d1d3;
+}
+.editor{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.edit{
+    display: flex;
+    gap: 5px;
+}
+.button{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: #d1d1d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
+.addButton{
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
