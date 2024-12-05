@@ -10,7 +10,9 @@
 }
 .post{
    display:flex;
+   gap: 20px;
    margin-top: 30px;
+   justify-content: space-between;
    align-items: center;
    
 }
@@ -59,7 +61,7 @@
 
     }
 }
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 690px) {
     .light{
         text-align: center;
     }

@@ -1,0 +1,36 @@
+.container{
+    padding-top:60px;
+    padding-bottom: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:'center' !important;
+    width: 100%;
+}
+.wrapper{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(128, 128, 128 , 0.2);
+}
+.socialLinks{
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.socialLinks:nth-child(1){
+    background-color: coral;
+}
+.socialLinks:nth-child(2){
+    background-color: lightcyan;
+    color: black;
+}
+.socialLinks:nth-child(3){
+
+    background-color: lightseagreen;
+}

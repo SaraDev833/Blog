@@ -9,13 +9,15 @@
     display: flex;
     gap: 10px;
     cursor: pointer;
+    flex:1;
 }
 
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 22px;
-  
+    text-align:center;
+    flex:1
 
 }
 
@@ -23,6 +25,7 @@
     display: flex;
     gap: 10px;
     cursor: pointer;
+    flex:1;
 }
  @media screen and (max-width: 768px) {
      .social{

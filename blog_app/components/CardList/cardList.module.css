@@ -1,17 +1,17 @@
-.container{
-    flex:4!important;
-
+.container {
+    flex: 4 !important;
 
 }
-.items{
-    display:flex ;
+
+.items {
+    display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
 
-
-@media screen and (max-width: 768) {
-    .container{
-        flex: 1;
+@media screen and (max-width: 690px) {
+    .title {
+        text-align: center;
+        width: 100%;
     }
 }

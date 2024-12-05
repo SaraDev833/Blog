@@ -1,25 +1,37 @@
 import Image from 'next/image'
 import styles from './menu.module.css'
 import Link from 'next/link'
+import MenuList from './MenuList/MenuList'
 
 const Menu = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.menu}>
-        <span>Choosed by editor</span>
-        <h4>Editors choice</h4>
-        <div className={styles.MenuList}>
-            <div className={styles.ImageContainer}>
-            <Image src='/p1.jpeg' width={32} height={32} style={{objectFit:'cover'}} className={styles.image}/>
-            </div>
-             <div className={styles.TextContainer}>
-               <Link href='/' className={`${styles.category} ${styles.style}`} />
-               <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-             </div>
-
-        </div>
-        </div>
+<div>
+<span className={styles.edit}>Whats hot</span>
+          <h4 className={styles.choice}>Most Popular</h4>
+    <MenuList withImage={false}/>
+    
+</div>
+    <div className={styles.catContent}>
+      <h4 className={styles.choice} >Categories</h4>
+      <div className={styles.box}>
+      <Link href='/' className={`${styles.catItem} ${styles.fashion}`}>
+       Fashion
+      </Link>
+      <Link href='/' className={`${styles.catItem} ${styles.food}`}>
+       Food
+      </Link>
+      <Link href='/' className={`${styles.catItem} ${styles.coding}`}>
+       Coding
+      </Link>
+      </div>
+    </div >
+ <div className={styles.move} >
+ <span className={styles.edit} >Choosed by editor</span>
+    <h4 className={styles.choice}>Editors choice</h4>
+    <MenuList withImage={true} />
+ </div>
+ 
     </div>
   )
 }

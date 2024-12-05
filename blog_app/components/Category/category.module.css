@@ -3,6 +3,7 @@
 }
 .title{
     margin-bottom: 20px;
+
 }
 .categories {
     display: flex;
@@ -92,6 +93,11 @@
     .categories{
         justify-content: center;
         gap:10px;
+        
+    }
+    .title{
+        text-align:center !important;
+        width:100%;
     }
     .category{
         width: 45%;

@@ -31,11 +31,11 @@ export default function RootLayout({ children }) {
               <ThemeProvider>
         <div className="container">
           <div className="wrapper">
-              <div className="container">
+          
                 <Navbar />
                 {children}
                 <Footer />
-                </div>
+            
 
           </div>
 
