@@ -1,26 +1,33 @@
-.title{
+.container{
+    padding: 30px 0;
+}
+.title {
     padding: 10px 0;
     width: 100%;
     background-color: transparent;
     border: none;
     outline: none;
-    color: white;
+    color: var(--softTextColor);
 }
-.title::placeholder{
- 
+
+.title::placeholder {
+
     font-size: 28px;
     color: #d1d1d3;
 }
-.editor{
+
+.editor {
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
-.edit{
+
+.edit {
     display: flex;
     gap: 5px;
 }
-.button{
+
+.button {
     height: 26px;
     width: 26px;
     border-radius: 100%;
@@ -32,7 +39,8 @@
     align-items: center;
     border: 2px solid gray;
 }
-.addButton{
+
+.addButton {
     height: 26px;
     width: 26px;
     border-radius: 100%;
@@ -43,4 +51,24 @@
     justify-content: center;
     align-items: center;
     border: 1px solid green;
+}
+
+.area {
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: var(--softTextColor);
+    outline: none;
+    height: 10vh;
+}
+
+.area::placeholder {
+    font-size: 26px;
+    color: var(--softTextColor);
+}
+.text{
+    margin-top: 30px;
+    color: var(--softTextColor);
 }

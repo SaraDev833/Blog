@@ -2,9 +2,11 @@
 import Image from 'next/image';
 import styles from './write.module.css';
 import { useState } from 'react';
-import "react-quill/dist/quill.bubble.css";
+
+
 const page = () => {
     const [open, setOpen] = useState(false);
+    const [value , setValue] = useState('');
     return (
         <div className={styles.container}>
             <input type='text' className={styles.title} placeholder='Title' />
@@ -27,9 +29,10 @@ const page = () => {
                     </div>
                 )}
             </div>
-        <ReactQuill theme="bubble" placeholder='Tell '>
-
-        </ReactQuill>
+           <textarea className={styles.area} placeholder='Tell us your story...' ></textarea>
+           <div className={styles.text}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quidem repellendus ratione quam quae, tempora incidunt quas debitis repudiandae saepe expedita. Culpa error vero quidem distinctio officiis aut labore, expedita, provident, aspernatur rem sequi temporibus adipisci sed iste vel et. Dolorum necessitatibus cumque distinctio. Amet laudantium atque veritatis beatae explicabo.
+           </div>
         </div>
     )
 }

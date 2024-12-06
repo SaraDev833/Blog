@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import { ThemeContextProvider } from "../../context/ThemeContext";
 import ThemeProvider from "../../provider/ThemeProvider";
+import AuthProvider from "../../provider/AuthProvider";
 
 
 const geistSans = localFont({
@@ -27,22 +28,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-            <ThemeContextProvider>
-              <ThemeProvider>
-        <div className="container">
-          <div className="wrapper">
-          
-                <Navbar />
-                {children}
-                <Footer />
-            
+        <ThemeContextProvider>
+          <ThemeProvider>
+            <AuthProvider>
+              <div className="container">
+                <div className="wrapper">
 
-          </div>
+                  <Navbar />
+                  {children}
+                  <Footer />
 
-        </div>
-              </ThemeProvider>
 
-            </ThemeContextProvider>
+                </div>
+
+              </div>
+            </AuthProvider>
+          </ThemeProvider>
+
+        </ThemeContextProvider>
 
       </body>
     </html>

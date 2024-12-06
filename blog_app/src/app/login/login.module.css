@@ -2,8 +2,8 @@
     padding-top:60px;
     padding-bottom: 30px;
     display:flex;
-    align-items:center;
-    justify-content:'center' !important;
+    align-items:center !important;
+    justify-content:center !important;
     width: 100%;
 }
 .wrapper{
